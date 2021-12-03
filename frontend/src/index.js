@@ -1,13 +1,38 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
+import { composeWithDevTools } from 'redux-devtools-extension';
+import { Provider } from 'react-redux';
+import { createStore, applyMiddleware } from 'redux';
+import thunk from 'redux-thunk';
+import eventReducer from './reducers/eventReducer';
+
+import { BrowserRouter as Router, Route } from "react-router-dom";
+import NavBar from './components/NavBar';
+import Home from './components/Home';
+import EventsContainer from './containers/EventsContainer';
+import EventInput from './containers/EventInput';
+import history from './history';
+
+const composedEnhancer = composeWithDevTools(applyMiddleware(thunk))
+const store = createStore(eventReducer, composedEnhancer)
+
 ReactDOM.render(
+  <Router history={history}>
+    <div align="center">
+  <Provider store={store}>
   <React.StrictMode>
     <App />
-  </React.StrictMode>,
+  </React.StrictMode>
+    <NavBar />
+    <Route exact path="/" component={Home} />
+    <Route exact path="/events" component={EventsContainer} />
+    <Route exact path="/events/new" component={EventInput} />
+    </Provider>
+    </div>
+  </Router>,
   document.getElementById('root')
 );
 
