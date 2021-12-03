@@ -14,13 +14,13 @@ import NavBar from './components/NavBar';
 import Home from './components/Home';
 import EventsContainer from './containers/EventsContainer';
 import EventInput from './containers/EventInput';
-import history from './history';
+
 
 const composedEnhancer = composeWithDevTools(applyMiddleware(thunk))
 const store = createStore(eventReducer, composedEnhancer)
 
 ReactDOM.render(
-  <Router history={history}>
+  <Router>
     <div align="center">
   <Provider store={store}>
   <React.StrictMode>
