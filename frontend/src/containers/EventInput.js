@@ -6,7 +6,6 @@ import { addEvent } from '../actions/addEvent';
 class EventInput extends Component {
 
 
-    
     constructor() {
       super()
       this.state = {
