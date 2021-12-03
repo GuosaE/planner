@@ -1,24 +1,20 @@
-# README
+# Planner
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Planner is an application with a React/Redux frontend and a Rails API backend for planning the activities and events of the upcoming week.
 
-Things you may want to cover:
+# Installation
 
-* Ruby version
+1. Clone this repo.
+2. Navigate into the backend by entering `cd backend` in your terminal.
+3. Run `bundle install`.
+4. Run `rails s -p 3001` to start the Rails server.
+5. Open a second terminal and navigate to the frontend by entering `cd frontend` in your second terminal.
+6. Run `npm start` in the second terminal and the application will open in your browser. 
 
-* System dependencies
+# Contributing
 
-* Configuration
+Planner encourages open and friendly collaboration on this project in accordance with the code of conduct of the <a href="https://www.contributor-covenant.org/version/2/0/code_of_conduct/">Contributor Covenant</a>.
 
-* Database creation
+# License
 
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+This application is available as open source under the terms of the <a href="http://opensource.org/licenses/MIT">MIT License</a>.
