@@ -6,11 +6,12 @@ Planner is an application with a React/Redux frontend and a Rails API backend fo
 
 1. Clone this repo.
 2. Navigate into the backend by entering `cd backend` in your terminal.
-3. Run `bundle install`.
-4. Run `rails s -p 3001` to start the Rails server.
-5. Open a second terminal and navigate to the frontend by entering `cd frontend` in your second terminal.
-6. Run `npm install` in the second terminal.
-7. Run `npm start` in the second terminal and the application will open in your browser. 
+3. Run `rails db:migrate`
+4. Run `bundle install`.
+5. Run `rails s -p 3001` to start the Rails server.
+6. Open a second terminal and navigate to the frontend by entering `cd frontend` in your second terminal.
+7. Run `npm install` in the second terminal.
+8. Run `npm start` in the second terminal and the application will open in your browser. 
 
 # Contributing
 
