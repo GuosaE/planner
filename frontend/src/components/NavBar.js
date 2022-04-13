@@ -5,11 +5,9 @@ const NavBar = () => {
 
 
     const link = {
-        width: "70px",
+        width: "20%",
         padding: "10px",
-        margin: "2px 5px 5px",
-        background: "lightskyblue",
-        color: "black",
+        color: "brown",
       };
 
 

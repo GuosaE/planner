@@ -31,7 +31,7 @@ class Events extends Component {
                       <br></br>
                       <label className="category"><strong>Category:</strong> {event.category}</label>
                       <br></br>
-                      <button className="deleteButton" onClick={() => this.handleClick(event.id)}>Delete</button>
+                        <button className="deleteButton" onClick={() => this.handleClick(event.id)}>Delete</button>
                       </td>
               </tbody>
               </div>
