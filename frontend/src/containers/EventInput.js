@@ -58,6 +58,7 @@ class EventInput extends Component {
               <div className="inputForm">
                   <br></br>
                   <h3 id="input-header"><strong>Enter your planned activities for the week below!</strong></h3>
+                  <div id="input-lower-half"></div>
                   <br></br>
                   <form onSubmit={this.handleSubmit} className="activity-inputs">
                       <input type="text" name="day" placeholder="Enter the Day of the Week" id="day" value={this.state.day} onChange={this.handleChange} />
