@@ -76,6 +76,7 @@ class EventInput extends Component {
                       <input type="text" name="category" placeholder="Enter Category" id="category" value={this.state.category} onChange={this.handleChange} />
                       <br></br>
                       <br></br>
+                      <br></br>
                       <div>
                           <input type="submit" value="Submit" id="submit" />
                       </div>

@@ -7,7 +7,7 @@ const NavBar = () => {
     const link = {
         width: "20%",
         padding: "10px",
-        color: "brown",
+        color: "darkblue",
       };
 
 
