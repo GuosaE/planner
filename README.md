@@ -1,6 +1,8 @@
 # Planner
 
-Planner is an application with a React/Redux frontend and a Rails API backend for planning the activities and events of the upcoming week.
+![](planner-demo.gif)
+
+Planner is an application made with a React/Redux frontend and a Rails API backend for planning the activities of the upcoming week.
 
 # Installation
 
