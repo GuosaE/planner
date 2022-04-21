@@ -26,7 +26,12 @@ form {
   padding: 0px 0px 70px; 
   margin: auto;
   background-image: url("https://i.imgur.com/XrFzX5H.jpg");
-  background-color: #050A30; 
+  background-color: #050A30;
+  animation: moveRight 2.2s;
+  -webkit-animation: moveRight 2.2s;
+  -moz-animation: moveRight 2.2s;
+  -o-animation: moveRight 2.2s;
+  -ms-animation: moveRight 2.2s;
 }
 
 .central-front-page-banner{
@@ -54,6 +59,11 @@ form {
   color: whitesmoke;
   text-align: center; 
   padding: 20px 0px 50px; 
+  animation: fadeInDown 2.4s;
+  -webkit-animation: fadeInDown 2.4s;
+  -moz-animation: fadeInDown 2.4s;
+  -o-animation: fadeInDown 2.4s;
+  -ms-animation: fadeInDown 2.4s;
 }
 
 .mid-top-front-page-banner{
@@ -67,6 +77,11 @@ form {
   margin: auto;
   background-image: url("https://i.imgur.com/K5cwcYS.jpg");
   background-color: #050A30;
+  animation: moveRight 2s;
+  -webkit-animation: moveRight 2s;
+  -moz-animation: moveRight 2s;
+  -o-animation: moveRight 2s;
+  -ms-animation: moveRight 2s;
 }
 
 .middle-front-page-banner{
@@ -79,6 +94,11 @@ form {
   padding: 0px 0px 80px; 
   margin: auto;
   background-color: #f5f4f0; 
+  animation: moveLeft 1.8s;
+  -webkit-animation: moveLeft 1.8s;
+  -moz-animation: moveLeft 1.8s;
+  -o-animation: moveLeft 1.8s;
+  -ms-animation: moveLeft 1.8s;
 }
 
 .mid-lower-front-page-banner{
@@ -92,6 +112,11 @@ form {
   margin: auto;
   background-image: url("https://i.imgur.com/wp1kLqo.jpg");
   background-color: #050A30;
+  animation: moveRight 1.6s;
+  -webkit-animation: moveRight 1.6s;
+  -moz-animation: moveRight 1.6s;
+  -o-animation: moveRight 1.6s;
+  -ms-animation: moveRight 1.6s;
 }
 
 .lower-front-page-banner{
@@ -104,6 +129,11 @@ form {
   padding: 0px 0px 70px; 
   margin: auto;
   background-color: #f5f4f0; 
+  animation: moveLeft 1.4s;
+  -webkit-animation: moveLeft 1.4s;
+  -moz-animation: moveLeft 1.4s;
+  -o-animation: moveLeft 1.4s;
+  -ms-animation: moveLeft 1.4s;
 }
 
 .mid-bottom-front-page-banner{
@@ -117,6 +147,11 @@ form {
   margin: auto;
   background-image: url("https://i.imgur.com/ITxHs67.jpg");
   background-color: #050A30;
+  animation: moveRight 1.2s;
+  -webkit-animation: moveRight 1.2s;
+  -moz-animation: moveRight 1.2s;
+  -o-animation: moveRight 1.2s;
+  -ms-animation: moveRight 1.2s;
 }
 
 .bottom-front-page-banner{
@@ -129,7 +164,164 @@ form {
   padding: 0px 0px 70px; 
   margin: auto;
   background-color: #f5f4f0;
+  animation: moveLeft 1s;
+  -webkit-animation: moveLeft 1s;
+  -moz-animation: moveLeft 1s;
+  -o-animation: moveLeft 1s;
+  -ms-animation: moveLeft 1s;
 }
+
+
+
+@keyframes fadeInDown {
+  0% {
+    opacity: 0;
+    transform: translateY(-40px);
+ }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+ }
+}
+
+@-moz-keyframes fadeInDown {
+  0% {
+    opacity: 0;
+    transform: translateY(-40px);
+ }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+ }
+}
+
+@-webkit-keyframes fadeInDown {
+  0% {
+    opacity: 0;
+    transform: translateY(-40px);
+ }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+ }
+}
+
+@-o-keyframes fadeInDown {
+  0% {
+    opacity: 0;
+    transform: translateY(-40px);
+ }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+ }
+}
+
+@-ms-keyframes fadeInDown {
+  0% {
+    opacity: 0;
+    transform: translateY(-40px);
+ }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+ }
+}
+
+
+
+@keyframes moveLeft {
+  0% {
+    transform: translateX(-90px);
+ }
+  100% {
+    transform: translateX(0);
+ }
+}
+
+@-moz-keyframes moveLeft {
+  0% {
+    transform: translateX(-90px);
+ }
+  100% {
+    transform: translateX(0);
+ }
+}
+
+@-webkit-keyframes moveLeft {
+  0% {
+    transform: translateX(-90px);
+ }
+  100% {
+    transform: translateX(0);
+ }
+}
+
+@-o-keyframes moveLeft {
+  0% {
+    transform: translateX(-90px);
+ }
+  100% {
+    transform: translateX(0);
+ }
+}
+
+@-ms-keyframes moveLeft {
+  0% {
+    transform: translateX(-90px);
+ }
+  100% {
+    transform: translateX(0);
+ }
+}
+
+
+
+@keyframes moveRight {
+  0% {
+    transform: translateX(90px);
+ }
+  100% {
+    transform: translateX(0);
+ }
+}
+
+@-moz-keyframes moveRight {
+  0% {
+    transform: translateX(90px);
+ }
+  100% {
+    transform: translateX(0);
+ }
+}
+
+@-webkit-keyframes moveRight {
+  0% {
+    transform: translateX(90px);
+ }
+  100% {
+    transform: translateX(0);
+ }
+}
+
+@-o-keyframes moveRight {
+  0% {
+    transform: translateX(90px);
+ }
+  100% {
+    transform: translateX(0);
+ }
+}
+
+@-ms-keyframes moveRight {
+  0% {
+    transform: translateX(90px);
+ }
+  100% {
+    transform: translateX(0);
+ }
+}
+
 
 .eventBanner {
   width:100%; 
